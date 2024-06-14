@@ -1,0 +1,108 @@
+{
+    "planets": [
+        {
+            "name": "Mercury",
+            "radius": 2439,
+            "rings": [0, {"radius": "", "texture": ""}],
+            "moons": [0, []],
+            "texture": "/planet_textures/mercury_texture.jpg",
+            "distance_from_sun": 57909175,
+            "orbit_speed": 4.151,
+            "rotation_speed": 0.0000467,
+            "axial_tilt": 0.034,
+            "color": "gray",
+            "active": false
+        },
+        {
+            "name": "Venus",
+            "radius": 6051,
+            "rings": [0, {"radius": "", "texture": ""}],
+            "moons": [0, []],
+            "texture": "/planet_textures/venus_texture.jpg",
+            "distance_from_sun": 108208930,
+            "orbit_speed": 1.623,
+            "rotation_speed": -0.0000113,
+            "axial_tilt": 177.4,
+            "color": "orange",
+            "active": false
+        },
+        {
+            "name": "Earth",
+            "radius": 6371,
+            "rings": [0, {"radius": "", "texture": ""}],
+            "moons": [1, [{"name": "Moon", "orbit_speed": 3683.2, "texture": "", "distance_from_planet": 384400, "radius": 1737.1, "rotation_speed": 3683.2, "axial_tilt": 6.68}]],
+            "texture": "/planet_textures/earth_texture.jpg",
+            "distance_from_sun": 149600000,
+            "orbit_speed": 1,
+            "rotation_speed": 0.0027379,
+            "axial_tilt": 23.44,
+            "color": "green",
+            "active": false
+        },
+        {
+            "name": "Mars",
+            "radius": 3389,
+            "rings": [0, {"radius": "", "texture": ""}],
+            "moons": [2, [{"name": "Phobos", "orbit_speed": 2137.4, "texture": "", "distance_from_planet": 9377, "radius": 11.1, "rotation_speed": 2137.4, "axial_tilt": 0}, {"name": "Deimos", "orbit_speed": 1353.6, "texture": "", "distance_from_planet": 23460, "radius": 6.2, "rotation_speed": 1353.6, "axial_tilt": 0}]],
+            "texture": "/planet_textures/mars_texture.jpg",
+            "distance_from_sun": 227939200,
+            "orbit_speed": 0.532,
+            "rotation_speed": 0.0027379,
+            "axial_tilt": 25.19,
+            "color": "red",
+            "active": false
+        },
+        {
+            "name": "Jupiter",
+            "radius": 69911,
+            "rings": [0, {"radius": "", "texture": ""}],
+            "moons": [0, []],
+            "texture": "/planet_textures/jupiter_texture.jpg",
+            "distance_from_sun": 778547200,
+            "orbit_speed": 0.084,
+            "rotation_speed": 0.0065708,
+            "axial_tilt": 3.13,
+            "color": "maroon",
+            "active": false
+        },
+        {
+            "name": "Saturn",
+            "radius": 58232,
+            "rings": [1, {"innerradius": 78911, "outerradius": 120300, "texture": "/planet_textures/saturn_ring_texture.png", "transTexture": null}],
+            "moons": [0, []],
+            "texture": "/planet_textures/saturn_texture.jpg",
+            "distance_from_sun": 1433449370,
+            "orbit_speed": 0.034,
+            "rotation_speed": 0.0065708,
+            "axial_tilt": 26.73,
+            "color": "yellow",
+            "active": false
+        },
+        {
+            "name": "Uranus",
+            "radius": 25362,
+            "rings": [1, {"innerradius": 26840, "outerradius": 103000, "texture": "/planet_textures/uranusringcolour.jpg", "transTexture": "/planet_textures/uranusringtrans.gif"}],
+            "moons": [0, []],
+            "texture": "/planet_textures/uranus_texture.jpg",
+            "distance_from_sun": 2876679082,
+            "orbit_speed": 0.012,
+            "rotation_speed": -0.0038652,
+            "axial_tilt": 97.86,
+            "color": "cyan",
+            "active": false
+        },
+        {
+            "name": "Neptune",
+            "radius": 24622,
+            "rings": [1, {"innerradius": 40900, "outerradius": 62932, "texture": ""}],
+            "moons": [0, []],
+            "texture": "/planet_textures/neptune_texture.jpg",
+            "distance_from_sun": 4498396441,
+            "orbit_speed": 0.006,
+            "rotation_speed": 0.0041068,
+            "axial_tilt": 28.32,
+            "color": "blue",
+            "active": false
+        }
+    ]
+}

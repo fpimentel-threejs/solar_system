@@ -9,4 +9,24 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.planetNames{
+  opacity: .5;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+            position: absolute;
+}
+
+.planetNames:hover{
+  opacity: 1;
 }
